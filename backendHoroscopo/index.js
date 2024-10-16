@@ -12,7 +12,7 @@ const app = express();
 
 const corsOptions = {
   origin:
-    process.env.FRONTEND_URL || "https://frontend-horoscopo-6vhp.vercel.app/",
+    process.env.FRONTEND_URL || "https://frontend-horoscopo-6vhp.vercel.app",
   methods: ["GET", "POST", "PATCH"],
   allowedHeaders: ["Content-Type", "Authorization"],
 };
